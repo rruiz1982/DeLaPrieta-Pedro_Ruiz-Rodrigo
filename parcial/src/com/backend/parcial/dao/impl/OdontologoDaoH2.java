@@ -10,7 +10,7 @@ public class OdontologoDaoH2 implements Dao<Odontologo>{
 
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
     public static final String DRIVER = "org.h2.Driver";
-    public static final String DB_URL = "jdbc:h2:~/examen;PASSWORD=sa;USER=sa;INIT=RUNSCRIPT FROM 'createDb.sql'";
+    public static final String DB_URL = "jdbc:h2:~/test;PASSWORD=;USER=sa;INIT=RUNSCRIPT FROM 'createDb.sql'";
 
     private static void getDriver() {
         try {

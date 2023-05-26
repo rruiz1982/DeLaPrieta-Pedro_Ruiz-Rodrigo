@@ -12,8 +12,8 @@ class OdontologoServiceTest {
     public void listar_todos_los_odontologos_y_mostrarlos(){
 
         OdontologoService oService = new OdontologoService();
-        Odontologo odontologo1 = new Odontologo(1,"Pedro", "de la Prieta");
-        Odontologo odontologo2 = new Odontologo(2,"Rodrigo", "Ruiz");
+        Odontologo odontologo1 = new Odontologo(3,"Pedro", "de la Prieta");
+        Odontologo odontologo2 = new Odontologo(4,"Rodrigo", "Ruiz");
 
         oService.registrarOdontologo(odontologo1);
         oService.registrarOdontologo(odontologo2);
