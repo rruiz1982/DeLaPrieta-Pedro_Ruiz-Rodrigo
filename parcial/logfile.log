@@ -8,11 +8,36 @@
 [2023-05-26 00:58:46] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 99999999, Rodrigo, Ruiz
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 11111111, Pedro, de la Prieta
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 11223344, Pedro, de la Prieta
-[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 12345678, Bart, Simpson
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 22222222, Rodrigo, Ruiz
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 22334455, Rodrigo, Ruiz
-[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 27568969, Facundo, Clavijo
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 33445566, Pedro, de la Prieta
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 44556677, Rodrigo, Ruiz
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 88888888, Pedro, de la Prieta
 [2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 99999999, Rodrigo, Ruiz
+[2023-05-26 09:38:16] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 09:38:17] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/examen user=SA
+[2023-05-26 09:38:17] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 88888888, Pedro, de la Prieta en la tabla ODONTOLOGO
+[2023-05-26 09:38:17] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 88888888, Pedro, de la Prieta
+[2023-05-26 09:38:17] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 09:38:17] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn1: url=jdbc:h2:~/examen user=SA
+[2023-05-26 09:38:17] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 99999999, Rodrigo, Ruiz en la tabla ODONTOLOGO
+[2023-05-26 09:38:17] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 99999999, Rodrigo, Ruiz
+[2023-05-26 09:38:17] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 88888888, Pedro, de la Prieta
+[2023-05-26 09:38:17] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 99999999, Rodrigo, Ruiz
+[2023-05-26 09:38:23] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 09:38:23] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/examen user=SA
+[2023-05-26 09:38:23] [ ERROR] [OdontologoDaoH2:45] org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(NROMATRICULA) ( /* key:0 */ 88888888, 'Pedro', 'de la Prieta')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(NROMATRICULA) ( /* key:0 */ 88888888, 'Pedro', 'de la Prieta')"; SQL statement:
+INSERT INTO ODONTOLOGO (NROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 09:39:52] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 09:39:53] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/examen user=SA
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 1, Pedro, de la Prieta en la tabla ODONTOLOGO
+[2023-05-26 09:39:53] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 1, Pedro, de la Prieta
+[2023-05-26 09:39:53] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 09:39:53] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn1: url=jdbc:h2:~/examen user=SA
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 2, Rodrigo, Ruiz en la tabla ODONTOLOGO
+[2023-05-26 09:39:53] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 2, Rodrigo, Ruiz
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 1, Pedro, de la Prieta
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 2, Rodrigo, Ruiz
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 88888888, Pedro, de la Prieta
+[2023-05-26 09:39:53] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 99999999, Rodrigo, Ruiz
