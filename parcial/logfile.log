@@ -1,0 +1,18 @@
+[2023-05-26 00:58:45] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 00:58:46] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/examen user=SA
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 88888888, Pedro, de la Prieta en la tabla ODONTOLOGO
+[2023-05-26 00:58:46] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 88888888, Pedro, de la Prieta
+[2023-05-26 00:58:46] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 00:58:46] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn1: url=jdbc:h2:~/examen user=SA
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 99999999, Rodrigo, Ruiz en la tabla ODONTOLOGO
+[2023-05-26 00:58:46] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 99999999, Rodrigo, Ruiz
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 11111111, Pedro, de la Prieta
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 11223344, Pedro, de la Prieta
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 12345678, Bart, Simpson
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 22222222, Rodrigo, Ruiz
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 22334455, Rodrigo, Ruiz
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 27568969, Facundo, Clavijo
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 33445566, Pedro, de la Prieta
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 44556677, Rodrigo, Ruiz
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 88888888, Pedro, de la Prieta
+[2023-05-26 00:58:46] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 99999999, Rodrigo, Ruiz

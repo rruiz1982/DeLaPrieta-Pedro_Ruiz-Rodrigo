@@ -1,22 +1,23 @@
 package com.backend.parcial.model;
 
 public class Odontologo {
-    private int matricula;
+
+    private int numeroMatricula;
     private String nombre;
     private String apellido;
 
-    public Odontologo(int matricula, String nombre, String apellido) {
-        this.matricula = matricula;
+    public Odontologo(int numeroMatricula, String nombre, String apellido) {
+        this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
         this.apellido = apellido;
     }
 
-    public int getMatricula() {
-        return matricula;
+    public int getNumeroMatricula() {
+        return numeroMatricula;
     }
 
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
+    public void setNumeroMatricula(int numeroMatricula) {
+        this.numeroMatricula = numeroMatricula;
     }
 
     public String getNombre() {
