@@ -80,3 +80,43 @@ Wrong user name or password [28000-214]
 [2023-05-26 10:05:34] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 4, Rodrigo, Ruiz
 [2023-05-26 10:05:34] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 3, Pedro, de la Prieta
 [2023-05-26 10:05:34] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 4, Rodrigo, Ruiz
+[2023-05-26 11:27:34] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:27:34] [ ERROR] [OdontologoDaoH2:45] org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/pedro/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/pedro/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 11:28:08] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:28:09] [ ERROR] [OdontologoDaoH2:45] org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/pedro/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/pedro/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 11:29:14] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:29:14] [ ERROR] [OdontologoDaoH2:45] org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/pedro/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/pedro/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 11:29:38] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:29:38] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/test user=SA
+[2023-05-26 11:29:38] [ ERROR] [OdontologoDaoH2:45] org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(NROMATRICULA) ( /* key:0 */ 3, 'Pedro', 'de la Prieta')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGO(NROMATRICULA) ( /* key:0 */ 3, 'Pedro', 'de la Prieta')"; SQL statement:
+INSERT INTO ODONTOLOGO (NROMATRICULA,NOMBRE, APELLIDO) VALUES (?,?,?) [23505-214]
+[2023-05-26 11:30:33] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:30:33] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/test user=SA
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 6, Pedro, de la Prieta en la tabla ODONTOLOGO
+[2023-05-26 11:30:33] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 6, Pedro, de la Prieta
+[2023-05-26 11:30:33] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:30:33] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn1: url=jdbc:h2:~/test user=SA
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 7, Rodrigo, Ruiz en la tabla ODONTOLOGO
+[2023-05-26 11:30:33] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 7, Rodrigo, Ruiz
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 3, Pedro, de la Prieta
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 4, Rodrigo, Ruiz
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 6, Pedro, de la Prieta
+[2023-05-26 11:30:33] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 7, Rodrigo, Ruiz
+[2023-05-26 11:36:11] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:36:11] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn0: url=jdbc:h2:~/test user=SA
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 8, Pedro, de la Prieta en la tabla ODONTOLOGO
+[2023-05-26 11:36:11] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 8, Pedro, de la Prieta
+[2023-05-26 11:36:11] [ DEBUG] [OdontologoDaoH2:30] La variable connection es: null
+[2023-05-26 11:36:11] [ DEBUG] [OdontologoDaoH2:35] La variable connection es: conn1: url=jdbc:h2:~/test user=SA
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:43] Se insertaron con éxito los datos: 9, Rodrigo, Ruiz en la tabla ODONTOLOGO
+[2023-05-26 11:36:11] [ INFO ] [OdontologoService:29] Se ha registrado el Odontologo: 9, Rodrigo, Ruiz
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 3, Pedro, de la Prieta
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 4, Rodrigo, Ruiz
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 6, Pedro, de la Prieta
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 7, Rodrigo, Ruiz
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 8, Pedro, de la Prieta
+[2023-05-26 11:36:11] [ INFO ] [OdontologoDaoH2:99] Lista de odontologos: 9, Rodrigo, Ruiz
