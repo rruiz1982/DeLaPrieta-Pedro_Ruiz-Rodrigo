@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/paciente.css">
+  <title>Registro de Paciente</title>
+</head>
+<body>
+<div class="container">
+  <div class="form-image">
+    <img src="./img/undraw_address_re_yaoj.svg">
+  </div>
+
+  <div class="form">
+    <form action="">
+      <div class="form-header">
+        <h1 class="title">Registro de Paciente</h1>
+      </div>
+      <div class="input-group">
+        <div class="input-box">
+          <label for="numero">Fecha de Ingreso</label>
+          <input id="numero" type="text" class="numero" name="numero" placeholder="123" required>
+
+          <label for="nome">Nombre</label>
+          <input id="nome" type="text" class="nome" name="nome" placeholder="Nombre del Paciente" required>
+
+          <label for="sobrenome">Apellido</label>
+          <input id="sobrenome" type="text" class="sobrenome" name="sobrenome" placeholder="Apellido de Paciente" required>
+
+          <label for="numero">CI</label>
+          <input id="numero" type="text" class="numero" name="numero" placeholder="" required>
+
+          <label for="rua">Calle</label>
+          <input id="rua" type="text" class="rua" name="rua" placeholder="" required>
+
+          <label for="numero">Número</label>
+          <input id="numero" type="text" class="numero" name="numero" placeholder="" required>
+
+          <label for="cidade">Ciudad</label>
+          <input id="cidade" type="text" class="cidade" name="cidade" placeholder="" required>
+
+          <label for="estado">Estado</label>
+          <input id="estado" type="text" class="sigla_estado" name="estado" placeholder="" required>
+        </div>
+      </div>
+      <div class="buttons">
+                    <span class="cadastrar-button">
+                        <button type="button" id="cadastrarButton">Guardar</button>
+                    </span>
+        <span class="limpar-button">
+                        <button type="reset" onclick="limpar()">Limpar</button>
+                    </span>
+      </div>
+      <div class="buscar-button">
+        <button type="button" onclick="window.location.href = './pacientes.html'">Buscar pacientes</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<script src="./js/pacienteScript.js"></script>
+</body>
+</html>
